@@ -2,5 +2,11 @@ A small ruby script that got to long.
 
 Adds your steam library to http://backloggery.com
 
-There are some quirks with some utf8 (mostly (tm) in the end of some game names), så you might have to
+There are some quirks with some utf8 (mostly (tm) in the end of some game names), so you might have to
 remove some crap from the end of some game names
+
+Usage
+====
+bundle install
+
+./backloggery_steam.rb backloggery_username [steam_username]
